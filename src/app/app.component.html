@@ -1,0 +1,13 @@
+<app-data-list
+  [data]="list1"
+  [title]="'List 1'"
+  (add)="add(list1, $event)"
+  (remove)="remove(list1, $event)"
+></app-data-list>
+
+<app-data-list
+  [data]="list2"
+  [title]="'List 2'"
+  (add)="add(list2, $event)"
+  (remove)="remove(list2, $event)"
+></app-data-list>
